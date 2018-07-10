@@ -1,0 +1,28 @@
+/* CSS Document */
+.sidebar{
+	float:right;
+	position:absolute;
+	min-width:200px;/*So that width can be altered and content can be changed according to width of window.*/
+	max-width:600px;
+	margin-left:10px;/*For some reason, auto-margins cannot work properly to the main margin of page(s).*/
+	margin-right:10px;
+	background-color:#dbb67a;/*Light Brown*/
+	border-radius:10px;/*Rounded Borders*/
+	overflow:hidden;/*So that no content can slip through the container.*/
+}
+.newsbox{
+
+}
+a{
+	font-family: "MS Serif", "New York", serif;
+	font-size: 120%;/*Percentage was used to have it fit the size of window.*/
+	font-style:bold;
+	font-weight: 100;
+	color:#963;/*Dark Brown*/
+	text-decoration: underline;/*Placed emphasis on the given text.*/
+	height: 30px;
+	display: block;
+	padding-top: 5px;/*For some reason, auto-margins cannot work properly to the main margin of page(s).*/
+	padding-bottom: 5px;
+	cursor:auto;
+}

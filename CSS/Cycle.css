@@ -1,0 +1,7 @@
+/* CSS Document */
+#photos{
+	height:500px;/*To the overall size of the image.*/
+	width:500px;/*To the overall size of the image.*/
+	overflow:hidden;/*So that no content can slip through the container.*/
+	position:relative;/*To the size of the container.*/
+}

@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+#overlay {
+  position: fixed;/*To the overall size of the window.*/
+  top: 0;/*Overall top left of the window.*/
+  left: 0;
+  height: 100%;/*Percentage was used to have it fit the size of window.*/
+  width: 100%;/*Percentage was used to have it fit the size of window.*/
+  background:black no-repeat scroll center center;/*Black Background*/
+}
+
+#lightbox {
+  position: fixed;/*To the overall size of the window.*/
+}

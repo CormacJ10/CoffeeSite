@@ -1,0 +1,48 @@
+/* CSS Document */
+dl {
+	position:relative;/*To the size of the container.*/
+	margin-right:5px;/*For some reason, auto-margins cannot work properly to the main margin of page(s).*/
+	margin-left:10px;/*For some reason, auto-margins cannot work properly to the main margin of page(s).*/
+}
+dt {
+	cursor:pointer;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 150%;/*Percentage was used to have it fit the size of window.*/
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	color:#963;/*Light Brown*/
+	padding-bottom: 10px;
+	border-bottom: 1px solid #FFF;/*So that the borders could not be seen by the user.*/
+	border-top: 1px solid #FFF;/*So that the borders could not be seen by the user.*/
+	border-radius:10px;/*Rounded Borders*/
+	background-color:#E1AF83;/*Pinkish Brown*/
+	display:block;
+	
+}
+dd {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 120%;/*Percentage was used to have it fit the size of window.*/
+	font-style: normal;
+	font-weight: normal;
+	color:#963;/*Coffee Brown*/
+}
+dt:first-child {
+	border-top:none;/*So that it won't look like on big mesh on top of one another*/
+}
+dt:nth-last-child(2) {
+	border-bottom:none;/*So that it won't look like on big mesh below one another*/
+}
+.hide {
+	display:none;
+}
+p.header{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:200%;/*Percentage was used to have it fit the size of window.*/
+	font-weight:bold;
+	margin-top:20px;
+	color:#D2691E;/*Dark Brown.*/
+}p {
+	word-spacing: 0.5em;/*1.5 line spacing.*/
+	line-height:100%;/*Percentage was used to have it fit the size of window.*/
+}

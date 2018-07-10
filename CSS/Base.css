@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+*{/*Forces margins and paddings to reset each and every time it is loaded.*/
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-image:url(../Images/coffee_design2.png);
+	background-color:#dbb67a;
+}
+.wrapper {/*Container of main page(s)*/
+	max-width: 1500px;/*So that width can be altered and content can be changed according to width of window.*/
+	min-width: 600px;
+	height: 100%;/*Percentage was used to have it fit the size of window.*/
+	background-color:#dbb67a;/*Light Brown*/
+	margin-left:100px;/*For some reason, auto-margins cannot work properly to the main margin of page(s).*/
+	margin-right:100px;
+	margin-bottom:20px;
+	margin-top:20px;
+	border-radius:10px;/*Rounded Borders*/
+	overflow:hidden;/*So that no content can slip through the container.*/
+}
+
+.wrapper .home {/*So that it fits the container of the page exactly*/
+	background-color:#dbb67a;/*Light Brown*/
+	border-radius:10px;/*Rounded Borders*/
+	float:left;
+	overflow:hidden;/*So that no content can slip through the container.*/
+}
+.home header {
+	height: 18%;/*Fits relative to the size of container.*/
+	background-color:#E19F83;/*Pinkish Brown*/
+	border-radius:10px;/*Rounded Borders*/
+	margin-left:auto;
+	margin-right:auto;
+}
+h1 {
+	text-align: center;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: 100;
+	font-size: 150%;/*Percentage was used to have it fit the size of window.*/
+}
+.clearfloat {
+	clear:both;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+p {
+	font-style: normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:120%;/*Percentage was used to have it fit the size of window.*/
+	color:#3D1F00;/*Coffee Brown*/
+	margin-bottom:30px;/*For some reason, auto-margins cannot work properly to the main margin of page(s).*/
+	margin-left:30px;
+	margin-right:30px;
+	word-spacing: 0.5em;/*1.5 line spacing.*/
+	line-height:100%;/*Percentage was used to have it fit the size of window.*/
+}
+.Border{
+	border-radius:10px;/*Rounded Borders*/
+}
+.img-right {
+	float:right;
+	margin-left:10px;/*For some reason, auto-margins cannot work properly to the main margin of page(s).*/
+	margin-right: 20px;
+	margin-bottom:10px;
+}
+
+.img-left {
+	float: left;
+	margin-right: 20px;/*For some reason, auto-margins cannot work properly to the main margin of page(s).*/
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.img-left1 {
+	float: left;
+	margin-right: 10px;/*For some reason, auto-margins cannot work properly to the main margin of page(s).*/
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+p.info{
+	border-radius:10px;/*Rounded Borders*/
+	padding-top:5px;
+	padding-bottom:5px;/*For some reason, auto-margins cannot work properly to the main margin of page(s).*/
+	background-color:#CC0;/*Light Green*/
+}
+p.info1{
+	border-radius:10px;/*Rounded Borders*/
+	padding-top:5px;
+	padding-bottom:5px;/*For some reason, auto-margins cannot work properly to the main margin of page(s).*/
+	background-color:#CC0;/*Light Green*/
+}
+p.info2{
+	border-radius:10px;/*Rounded Borders*/
+	padding-top:5px;
+	padding-bottom:5px;/*For some reason, auto-margins cannot work properly to the main margin of page(s).*/
+	background-color:#CC0;/*Light Green*/
+}
+nav {
+	font-weight: bold;
+	background-color: #E1AF83;/*Pinkish Brown*/
+	position:relative;/*To the size of the container.*/
+	width:inherit;
+	overflow:hidden;/*So that no content can slip through the container.*/
+}
+nav ul li {
+	float: left;
+	width: 20%;/*Percentage was used to have it fit the size of window.*/
+	height: 100%;
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-right-color: #E1AF83;/*So that the borders could not be seen by the user.*/
+	text-align: center;
+	list-style-type: none;
+}
+.hide {
+	display:none;
+}
+nav ul li a {
+	font-family: "MS Serif", "New York", serif;
+	font-size: 120%;/*Percentage was used to have it fit the size of window.*/
+	font-style: bold;
+	font-weight: 100;
+	color:#244700;
+	text-decoration: none;
+	height: 30px;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;/*For some reason, auto-margins cannot work properly to the main margin of page(s).*/
+	cursor:auto;
+}
+nav ul li.contact {
+	margin-right: -10px;/*Forces navigation to stay to the left of the given container*/
+}
+footer {
+	height: 10%;/*Percentage was used to have it fit the size of window.*/
+	background-color: #dbb67a;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;/*For some reason, auto-margins cannot work properly to the main margin of page(s).*/
+	padding-bottom: 10px;
+	border-radius: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	clear: both;
+}
